@@ -1,0 +1,34 @@
+<!-- <div id="bg">
+<%= image_tag "showbg.jpg", :class=> "image" %>
+</div> -->
+
+ <div class="col-sm-10 offset-sm-1 booyah-box text-center">
+    <h1>This is the wish show page</h1>
+    <p><%= @wish.message %></p>
+    <p><%= @wish.donation %></p>
+  </div>
+
+
+  <div id=content>
+  <div id="white-board">
+    <div id="text">
+      <span>My Wish</span>
+    </div>
+
+    <div class="grammar">
+      <div class="prompts"></div>
+      <div class="text-center" id="text">
+      <br>
+        <p><%= @wish.message %></p>
+        <p><%= @wish.donation %></p>
+      </div>
+
+    </div>
+
+    <div id="eraser"></div>
+    <div id="red-pen"></div>
+    <div id="blue-pen"></div>
+  </div>
+</div>
+
+

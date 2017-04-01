@@ -1,0 +1,6 @@
+<h1>Wishes Index Page</h1>
+<% @wishes.each do |wish| %>
+  <p><%= link_to wish.message, wish_path(wish) %></p>
+  <p><%= wish.donation %></p>
+
+<% end %>
