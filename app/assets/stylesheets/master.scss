@@ -1,5 +1,7 @@
 @import "bootstrap";
 
+
+
 #bg {
   position: fixed;
   top: -50%;
@@ -56,6 +58,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  /*width: 100%;
+  height: 100vh;*/
   width: 100%;
   height: 100vh;
 }
@@ -64,8 +68,10 @@ body{
 #white-board{
   background-color: $wb-color;
   position: relative;
-  width: 80%;
-  height: 80%;
+  /*width: 80%;
+  height: 80%;*/
+  width: 100%;
+  height: auto;
   border-radius: 5px;
   border: 10px solid $wb-bdr-color;
   box-shadow: inset -1px 2px 2px $wb-shadow, 6px 9px 1px rgba(0, 0, 0, 0.1);
@@ -122,4 +128,6 @@ body{
   width: 600px;
   border: solid 2px $bluepen;
 }
+
+
 

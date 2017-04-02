@@ -1,0 +1,7 @@
+<h1>This is the new form for a wish</h1>
+<div class="booyah-bol col-10 offset-1">
+  <%= simple_form_for @wish do |f| %>
+    <%= f.input :message %>
+    <%= f.submit "Make Your Wish" %>
+  <% end %>
+</div>
